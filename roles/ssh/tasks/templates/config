@@ -1,0 +1,13 @@
+Include config.*
+
+Host *
+  ForwardAgent yes
+  AddKeysToAgent yes
+  UseKeychain yes
+
+# expamle
+#
+# Host host
+#   HostName hostname
+#   User user
+#   IdentityFile path/to/key

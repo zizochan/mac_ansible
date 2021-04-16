@@ -1,0 +1,38 @@
+homebrew_taps:
+  - homebrew/cask
+  - homebrew/core
+homebrew_packages:
+  - name: ansible
+  - name: awscli
+  - name: git
+  - name: tree
+  - name: vim
+  - name: wget
+  - name: the_silver_searcher
+  - name: telnet
+  - name: tig
+  - name: watch
+  - name: zsh
+  - name: coreutils
+  - name: curl
+  - name: asdf
+homebrew_cask_packages:
+  - name: cyberduck
+  - name: google-chrome
+  - name: google-japanese-ime
+  - name: atom
+make_homedirs:
+  - name: tmp
+  - name: work
+  - name: secret
+  - name: mp3
+  - name: blackhole
+  - name: git
+github_repos:
+  - name: dotfiles
+  - name: zip_encrypter_ruby
+rails_packages:
+  - name: mysql
+  - name: redis
+  - name: memcached
+

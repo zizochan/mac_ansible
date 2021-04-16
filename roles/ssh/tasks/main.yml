@@ -1,0 +1,16 @@
+- block:
+
+  - name: make .ssh dir
+    file:
+      path: ~/.ssh/
+      state: directory
+      mode: 0755
+
+  - name: set ssh config
+    template:
+      src: config
+      dest: ~/.ssh/config
+      mode: 0644
+
+  tags:
+    - ssh

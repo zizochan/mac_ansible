@@ -1,0 +1,24 @@
+- block:
+  - name: make homedirs
+    file: path=~/{{ item.name }}/
+          state=directory
+    with_items: '{{ make_homedirs }}'
+
+  - name: touch ~/tmp.txt
+    file:
+      path: ~/tmp.txt
+      state: touch
+
+  - name: touch ~/work/memo.txt
+    file:
+      path: ~/work/memo.txt
+      state: touch
+
+  - name: symlink blackhole
+    file:
+      src: ~/blackhole
+      dest: ~/Desktop/blackhole
+      state: link
+
+  tags:
+    - homedir

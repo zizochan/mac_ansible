@@ -1,0 +1,10 @@
+- block:
+
+  - name: rails packages install
+    homebrew:
+      name: '{{ item.name }}'
+      state: '{{ item.state | default("present") }}'
+    with_items: '{{ rails_packages }}'
+
+  tags:
+    - rails
