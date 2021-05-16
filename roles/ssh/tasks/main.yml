@@ -11,6 +11,7 @@
       src: config
       dest: ~/.ssh/config
       mode: 0644
+      force: no
 
   tags:
     - ssh

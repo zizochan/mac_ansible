@@ -21,6 +21,13 @@ homebrew_cask_packages:
   - name: google-chrome
   - name: google-japanese-ime
   - name: atom
+  - name: unity-hub
+  - name: alfred
+  - name: boost-note
+  - name: sublime-text
+  - name: bettertouchtool
+  - name: firefox
+  - name: visual-studio-code
 make_homedirs:
   - name: tmp
   - name: work
