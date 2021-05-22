@@ -36,6 +36,7 @@ make_homedirs:
   - name: blackhole
   - name: git
 github_repos:
+  - name: mac_ansible
   - name: dotfiles
   - name: zip_encrypter_ruby
 rails_packages:
