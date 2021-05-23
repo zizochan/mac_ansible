@@ -28,6 +28,7 @@ homebrew_cask_packages:
   - name: bettertouchtool
   - name: firefox
   - name: visual-studio-code
+  - name: docker
 make_homedirs:
   - name: tmp
   - name: work
