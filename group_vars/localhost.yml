@@ -1,6 +1,3 @@
-homebrew_taps:
-  - homebrew/cask
-  - homebrew/core
 homebrew_packages:
   - name: ansible
   - name: awscli
@@ -17,18 +14,12 @@ homebrew_packages:
   - name: curl
   - name: asdf
 homebrew_cask_packages:
-  - name: cyberduck
-  - name: google-chrome
-  - name: google-japanese-ime
-  - name: atom
   - name: unity-hub
   - name: alfred
-  - name: boost-note
   - name: sublime-text
   - name: bettertouchtool
   - name: firefox
   - name: visual-studio-code
-  - name: docker
 make_homedirs:
   - name: tmp
   - name: work
@@ -36,6 +27,7 @@ make_homedirs:
   - name: mp3
   - name: blackhole
   - name: git
+  - name: "git/github"
 github_repos:
   - name: mac_ansible
   - name: dotfiles
@@ -44,4 +36,3 @@ rails_packages:
   - name: mysql
   - name: redis
   - name: memcached
-
