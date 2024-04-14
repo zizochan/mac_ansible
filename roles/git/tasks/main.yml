@@ -1,9 +1,0 @@
-- block:
-  - name: clone github repos
-    ansible.builtin.git:
-      repo: https://github.com/zizochan/{{ item.name }}.git
-      dest: ~/git/github/{{ item.name }}
-    with_items: '{{ github_repos }}'
-
-  tags:
-    - git
